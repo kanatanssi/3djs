@@ -1,8 +1,21 @@
-To extend a PlayfulJS demo, just fork this repository.
-If you make something cool,
-[email](mailto:hunter@hunterloftis.com) or [tweet](http://twitter.com/hunterloftis)
-me a link so I can announce it from playfuljs.com!
+Based on the fantastic PlayfulJS demo!
 
-Once you fork this repo and push to your own gh-pages branch,
-your work will be accessible at a url like
-http://yourusername.github.io/playfuljs-demos/raycaster
+Check out at:
+http://kanatanssi.github.io/playfuljs-demos/raycaster
+
+# TODO:
+## Eye-catchign Portfolio plan:
+### First and foremost:
+- replace knife-hand with spaceship HUD
+- replace creepy ruins with space and planets
+- figure out a way to present portfolio data
+
+### Secondly:
+- maybe make each part of the portfolio a different planet
+- browse details by landing
+* moving up and down? Moving into planet orbit?
+
+### Thirdly
+- improve mobile controls
+- optimize a bit
+

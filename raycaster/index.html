@@ -267,8 +267,11 @@
       var camera = new Camera(display, MOBILE ? 160 : 320, 0.8);
       var loop = new GameLoop();
 
+      // This initializes the map randomly
+      // TODO: replace with map.initialize(); that does something else
       map.randomize();
       
+      // This is the game loop
       loop.start(function frame(seconds) {
         map.update(seconds);
         player.update(controls.states, map, seconds);
@@ -276,6 +279,7 @@
       });
 
     </script>
+<!-- We really don'y need the GA
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -284,6 +288,6 @@
 
       ga('create', 'UA-50885475-1', 'playfuljs.com');
       ga('send', 'pageview');
-    </script>
+    </script>-->
   </body>
 </html>
